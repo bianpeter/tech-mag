@@ -1,7 +1,7 @@
 # Tech Magazine
 
 Project made with React, Node.js and News Api
-The landing page only loads once. If you want to visit again, remove key(alreadyVisited) from browser local storage.
+The landing page only loads once. If you want to visit the landing page again, remove key(alreadyVisited) from browser local storage.
 
 To run the project:
 1. npm install (frontend)

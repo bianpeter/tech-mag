@@ -1,3 +1,14 @@
+installed: npm install cors (backend) npm install --save react-router-dom (frontend)
+api key from enviormental variable
+
+    backendbe kell egy app-env file
+    app-env file-ba : export API_KEY="ide kell az api key"
+    server.js-ben : const api_key = process.env.API_KEY; const newsapi = new NewsAPI(api_key);
+    backend mappában(futtatni): source app-env
+    backend gitignorban: app-env
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
